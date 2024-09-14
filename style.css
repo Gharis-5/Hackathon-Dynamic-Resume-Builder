@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20;
+    padding: 0;
+    background-color:#11025ffa;
+}
+
+h1{
+    color :white;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color:#1a0488fa ;
+    border-radius: 20px;
+    box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    
+}
+
+button{
+   display: block;
+   width: 100%;
+   padding: 10px;
+   font-size: 18px;
+   color: blue;
+   cursor: pointer;
+   font-family: 'Times New Roman', Times, serif;
+   border-radius: 50px;
+}
+
+fieldset{
+    color: aliceblue;
+    border-radius: 2px;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input,textarea{
+    width: calc(100% - 16px);
+    padding:8px ;
+    margin-top: 8px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    margin-top: 10%;
+    font-size: x-large;
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(22, 3, 233);
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
+}
+
+#resumeOutput h2{
+    color: black;
+}
